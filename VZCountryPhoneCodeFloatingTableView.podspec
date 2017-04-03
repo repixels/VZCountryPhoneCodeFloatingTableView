@@ -24,9 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.homepage     = "https://www.vezeeta.com"
-
+  s.homepage = "https://github.com/vzehabashraf/VZCountryPhoneCodeFloatingTableView"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
