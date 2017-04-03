@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SingleCountryCell" id="KGk-i7-Jjw" customClass="SingleCountryTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84r-dm-dvg" userLabel="Container View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FBx-hY-QOV">
+                                <rect key="frame" x="8" y="12.5" width="23" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="PHe-bd-rOb"/>
+                                    <constraint firstAttribute="width" constant="23" id="rZP-yi-9cu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Egypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEz-vD-ghm">
+                                <rect key="frame" x="41" y="14" width="201" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FBx-hY-QOV" firstAttribute="centerY" secondItem="84r-dm-dvg" secondAttribute="centerY" id="XzV-3W-82H"/>
+                            <constraint firstItem="QEz-vD-ghm" firstAttribute="centerY" secondItem="84r-dm-dvg" secondAttribute="centerY" id="dmS-ZZ-KS3"/>
+                            <constraint firstItem="QEz-vD-ghm" firstAttribute="leading" secondItem="FBx-hY-QOV" secondAttribute="trailing" constant="10" id="hrX-9Q-HWa"/>
+                            <constraint firstItem="FBx-hY-QOV" firstAttribute="leading" secondItem="84r-dm-dvg" secondAttribute="leading" constant="8" id="lJu-6h-ZXM"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="+98764" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvA-wp-MV8">
+                        <rect key="frame" x="252" y="14" width="60" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="684-3x-L4J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IvA-wp-MV8" firstAttribute="leading" secondItem="QEz-vD-ghm" secondAttribute="trailing" constant="10" id="3S1-6w-GXE"/>
+                    <constraint firstItem="IvA-wp-MV8" firstAttribute="leading" secondItem="84r-dm-dvg" secondAttribute="trailing" constant="-68" id="JL0-qS-LJZ"/>
+                    <constraint firstItem="84r-dm-dvg" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerXWithinMargins" id="bUV-Rf-bXN"/>
+                    <constraint firstItem="84r-dm-dvg" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="gX2-er-VNa"/>
+                    <constraint firstItem="84r-dm-dvg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerYWithinMargins" id="sOY-31-l1q"/>
+                    <constraint firstItem="IvA-wp-MV8" firstAttribute="centerY" secondItem="84r-dm-dvg" secondAttribute="centerY" id="wDB-dR-uWy"/>
+                    <constraint firstItem="84r-dm-dvg" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="zjn-4d-bQ4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countryCode" destination="IvA-wp-MV8" id="qTe-fp-fYh"/>
+                <outlet property="countryFlag" destination="FBx-hY-QOV" id="26l-Ko-DKA"/>
+                <outlet property="countryName" destination="QEz-vD-ghm" id="uvR-tK-0vr"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

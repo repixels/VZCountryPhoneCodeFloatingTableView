@@ -7,13 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58ADE277A060D81DACA422CE /* libPods-VZCountryPhoneCodeFloatingTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F22E704F35157E836AD72AD6 /* libPods-VZCountryPhoneCodeFloatingTableView.a */; };
 		A9494D9D1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494D9B1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9494DC01E92FCAA00A0386A /* FloatingTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DA61E92FCAA00A0386A /* FloatingTableViewController.h */; };
+		A9494DC11E92FCAA00A0386A /* FloatingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9494DA71E92FCAA00A0386A /* FloatingTableViewController.m */; };
+		A9494DC21E92FCAA00A0386A /* SingleCountryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DA91E92FCAA00A0386A /* SingleCountryTableViewCell.h */; };
+		A9494DC31E92FCAA00A0386A /* SingleCountryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9494DAA1E92FCAA00A0386A /* SingleCountryTableViewCell.m */; };
+		A9494DC41E92FCAA00A0386A /* SingleCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9494DAB1E92FCAA00A0386A /* SingleCountryTableViewCell.xib */; };
+		A9494DC51E92FCAA00A0386A /* FloatingCountriesTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DAD1E92FCAA00A0386A /* FloatingCountriesTableDelegate.h */; };
+		A9494DC61E92FCAA00A0386A /* CGLAlphabetizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DB01E92FCAA00A0386A /* CGLAlphabetizer.h */; };
+		A9494DC71E92FCAA00A0386A /* CGLAlphabetizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9494DB11E92FCAA00A0386A /* CGLAlphabetizer.m */; };
+		A9494DC81E92FCAA00A0386A /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = A9494DB31E92FCAA00A0386A /* countries.json */; };
+		A9494DC91E92FCAA00A0386A /* Country.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DB51E92FCAA00A0386A /* Country.h */; };
+		A9494DCA1E92FCAA00A0386A /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = A9494DB61E92FCAA00A0386A /* Country.m */; };
+		A9494DCB1E92FCAA00A0386A /* CountryListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A9494DB81E92FCAA00A0386A /* CountryListDataSource.h */; };
+		A9494DCC1E92FCAA00A0386A /* CountryListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A9494DB91E92FCAA00A0386A /* CountryListDataSource.m */; };
+		A9494DCD1E92FCAA00A0386A /* CountriesArrayArabic.json in Resources */ = {isa = PBXBuildFile; fileRef = A9494DBB1E92FCAA00A0386A /* CountriesArrayArabic.json */; };
+		A9494DCE1E92FCAA00A0386A /* CountriesArrayEnglish.json in Resources */ = {isa = PBXBuildFile; fileRef = A9494DBC1E92FCAA00A0386A /* CountriesArrayEnglish.json */; };
+		A9494DCF1E92FCAA00A0386A /* FlagKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9494DBD1E92FCAA00A0386A /* FlagKit.xcassets */; };
+		A9494DD01E92FCAA00A0386A /* FloatingTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9494DBF1E92FCAA00A0386A /* FloatingTable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8578F1A8F3D08AA0AE4095AD /* Pods-VZCountryPhoneCodeFloatingTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VZCountryPhoneCodeFloatingTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VZCountryPhoneCodeFloatingTableView/Pods-VZCountryPhoneCodeFloatingTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		95D42F5D52C16C2D83A45AE5 /* Pods-VZCountryPhoneCodeFloatingTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VZCountryPhoneCodeFloatingTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-VZCountryPhoneCodeFloatingTableView/Pods-VZCountryPhoneCodeFloatingTableView.release.xcconfig"; sourceTree = "<group>"; };
 		A9494D981E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VZCountryPhoneCodeFloatingTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9494D9B1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZCountryPhoneCodeFloatingTableView.h; sourceTree = "<group>"; };
 		A9494D9C1E92FC9800A0386A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9494DA61E92FCAA00A0386A /* FloatingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingTableViewController.h; sourceTree = "<group>"; };
+		A9494DA71E92FCAA00A0386A /* FloatingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingTableViewController.m; sourceTree = "<group>"; };
+		A9494DA91E92FCAA00A0386A /* SingleCountryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCountryTableViewCell.h; sourceTree = "<group>"; };
+		A9494DAA1E92FCAA00A0386A /* SingleCountryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCountryTableViewCell.m; sourceTree = "<group>"; };
+		A9494DAB1E92FCAA00A0386A /* SingleCountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCountryTableViewCell.xib; sourceTree = "<group>"; };
+		A9494DAD1E92FCAA00A0386A /* FloatingCountriesTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingCountriesTableDelegate.h; sourceTree = "<group>"; };
+		A9494DB01E92FCAA00A0386A /* CGLAlphabetizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGLAlphabetizer.h; sourceTree = "<group>"; };
+		A9494DB11E92FCAA00A0386A /* CGLAlphabetizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGLAlphabetizer.m; sourceTree = "<group>"; };
+		A9494DB31E92FCAA00A0386A /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		A9494DB51E92FCAA00A0386A /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		A9494DB61E92FCAA00A0386A /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		A9494DB81E92FCAA00A0386A /* CountryListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryListDataSource.h; sourceTree = "<group>"; };
+		A9494DB91E92FCAA00A0386A /* CountryListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryListDataSource.m; sourceTree = "<group>"; };
+		A9494DBB1E92FCAA00A0386A /* CountriesArrayArabic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountriesArrayArabic.json; sourceTree = "<group>"; };
+		A9494DBC1E92FCAA00A0386A /* CountriesArrayEnglish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountriesArrayEnglish.json; sourceTree = "<group>"; };
+		A9494DBD1E92FCAA00A0386A /* FlagKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlagKit.xcassets; sourceTree = "<group>"; };
+		A9494DBF1E92FCAA00A0386A /* FloatingTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloatingTable.xib; sourceTree = "<group>"; };
+		F22E704F35157E836AD72AD6 /* libPods-VZCountryPhoneCodeFloatingTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VZCountryPhoneCodeFloatingTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +59,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58ADE277A060D81DACA422CE /* libPods-VZCountryPhoneCodeFloatingTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140697DD5B71B5CCDB7AC9D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F22E704F35157E836AD72AD6 /* libPods-VZCountryPhoneCodeFloatingTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9494D8E1E92FC9800A0386A = {
 			isa = PBXGroup;
 			children = (
 				A9494D9A1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView */,
 				A9494D991E92FC9800A0386A /* Products */,
+				DA09611DBE7B9C47C92FC126 /* Pods */,
+				140697DD5B71B5CCDB7AC9D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +95,132 @@
 		A9494D9A1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView */ = {
 			isa = PBXGroup;
 			children = (
+				A9494DA31E92FCAA00A0386A /* Floating Table */,
 				A9494D9B1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.h */,
 				A9494D9C1E92FC9800A0386A /* Info.plist */,
 			);
 			path = VZCountryPhoneCodeFloatingTableView;
+			sourceTree = "<group>";
+		};
+		A9494DA31E92FCAA00A0386A /* Floating Table */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DA41E92FCAA00A0386A /* Controllers */,
+				A9494DA81E92FCAA00A0386A /* Country Cell */,
+				A9494DAC1E92FCAA00A0386A /* Delegate */,
+				A9494DAE1E92FCAA00A0386A /* Helpers */,
+				A9494DB21E92FCAA00A0386A /* Model */,
+				A9494DBA1E92FCAA00A0386A /* Resources */,
+				A9494DBE1E92FCAA00A0386A /* View */,
+			);
+			path = "Floating Table";
+			sourceTree = "<group>";
+		};
+		A9494DA41E92FCAA00A0386A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DA51E92FCAA00A0386A /* Flotaing TableView Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9494DA51E92FCAA00A0386A /* Flotaing TableView Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DA61E92FCAA00A0386A /* FloatingTableViewController.h */,
+				A9494DA71E92FCAA00A0386A /* FloatingTableViewController.m */,
+			);
+			path = "Flotaing TableView Controller";
+			sourceTree = "<group>";
+		};
+		A9494DA81E92FCAA00A0386A /* Country Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DA91E92FCAA00A0386A /* SingleCountryTableViewCell.h */,
+				A9494DAA1E92FCAA00A0386A /* SingleCountryTableViewCell.m */,
+				A9494DAB1E92FCAA00A0386A /* SingleCountryTableViewCell.xib */,
+			);
+			path = "Country Cell";
+			sourceTree = "<group>";
+		};
+		A9494DAC1E92FCAA00A0386A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DAD1E92FCAA00A0386A /* FloatingCountriesTableDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A9494DAE1E92FCAA00A0386A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DAF1E92FCAA00A0386A /* CGLAlphabetizer */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A9494DAF1E92FCAA00A0386A /* CGLAlphabetizer */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DB01E92FCAA00A0386A /* CGLAlphabetizer.h */,
+				A9494DB11E92FCAA00A0386A /* CGLAlphabetizer.m */,
+			);
+			path = CGLAlphabetizer;
+			sourceTree = "<group>";
+		};
+		A9494DB21E92FCAA00A0386A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DB31E92FCAA00A0386A /* countries.json */,
+				A9494DB41E92FCAA00A0386A /* Country */,
+				A9494DB71E92FCAA00A0386A /* Country List Data Source */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9494DB41E92FCAA00A0386A /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DB51E92FCAA00A0386A /* Country.h */,
+				A9494DB61E92FCAA00A0386A /* Country.m */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		A9494DB71E92FCAA00A0386A /* Country List Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DB81E92FCAA00A0386A /* CountryListDataSource.h */,
+				A9494DB91E92FCAA00A0386A /* CountryListDataSource.m */,
+			);
+			path = "Country List Data Source";
+			sourceTree = "<group>";
+		};
+		A9494DBA1E92FCAA00A0386A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DBB1E92FCAA00A0386A /* CountriesArrayArabic.json */,
+				A9494DBC1E92FCAA00A0386A /* CountriesArrayEnglish.json */,
+				A9494DBD1E92FCAA00A0386A /* FlagKit.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9494DBE1E92FCAA00A0386A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9494DBF1E92FCAA00A0386A /* FloatingTable.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA09611DBE7B9C47C92FC126 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8578F1A8F3D08AA0AE4095AD /* Pods-VZCountryPhoneCodeFloatingTableView.debug.xcconfig */,
+				95D42F5D52C16C2D83A45AE5 /* Pods-VZCountryPhoneCodeFloatingTableView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +230,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9494DC61E92FCAA00A0386A /* CGLAlphabetizer.h in Headers */,
+				A9494DC91E92FCAA00A0386A /* Country.h in Headers */,
+				A9494DC01E92FCAA00A0386A /* FloatingTableViewController.h in Headers */,
+				A9494DC21E92FCAA00A0386A /* SingleCountryTableViewCell.h in Headers */,
+				A9494DC51E92FCAA00A0386A /* FloatingCountriesTableDelegate.h in Headers */,
 				A9494D9D1E92FC9800A0386A /* VZCountryPhoneCodeFloatingTableView.h in Headers */,
+				A9494DCB1E92FCAA00A0386A /* CountryListDataSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9494DA01E92FC9800A0386A /* Build configuration list for PBXNativeTarget "VZCountryPhoneCodeFloatingTableView" */;
 			buildPhases = (
+				AEBFF50A77AB764FC9E30AF0 /* [CP] Check Pods Manifest.lock */,
 				A9494D931E92FC9800A0386A /* Sources */,
 				A9494D941E92FC9800A0386A /* Frameworks */,
 				A9494D951E92FC9800A0386A /* Headers */,
 				A9494D961E92FC9800A0386A /* Resources */,
+				822483CFB6E6AC5EE12DBA54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,16 +301,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9494DCF1E92FCAA00A0386A /* FlagKit.xcassets in Resources */,
+				A9494DC81E92FCAA00A0386A /* countries.json in Resources */,
+				A9494DC41E92FCAA00A0386A /* SingleCountryTableViewCell.xib in Resources */,
+				A9494DCD1E92FCAA00A0386A /* CountriesArrayArabic.json in Resources */,
+				A9494DD01E92FCAA00A0386A /* FloatingTable.xib in Resources */,
+				A9494DCE1E92FCAA00A0386A /* CountriesArrayEnglish.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		822483CFB6E6AC5EE12DBA54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VZCountryPhoneCodeFloatingTableView/Pods-VZCountryPhoneCodeFloatingTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBFF50A77AB764FC9E30AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9494D931E92FC9800A0386A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9494DCA1E92FCAA00A0386A /* Country.m in Sources */,
+				A9494DC71E92FCAA00A0386A /* CGLAlphabetizer.m in Sources */,
+				A9494DC31E92FCAA00A0386A /* SingleCountryTableViewCell.m in Sources */,
+				A9494DC11E92FCAA00A0386A /* FloatingTableViewController.m in Sources */,
+				A9494DCC1E92FCAA00A0386A /* CountryListDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +461,7 @@
 		};
 		A9494DA11E92FC9800A0386A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8578F1A8F3D08AA0AE4095AD /* Pods-VZCountryPhoneCodeFloatingTableView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -256,6 +480,7 @@
 		};
 		A9494DA21E92FC9800A0386A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D42F5D52C16C2D83A45AE5 /* Pods-VZCountryPhoneCodeFloatingTableView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -291,6 +516,7 @@
 				A9494DA21E92FC9800A0386A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
