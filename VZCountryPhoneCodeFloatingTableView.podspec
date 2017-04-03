@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VZCountryPhoneCodeFloatingTableView"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Floating Tableview with all countries along with Phone Codes."
 
   # This description is used to generate tags and improve search results.
@@ -57,6 +57,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
+  s.ios.deployment_target = '8.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
