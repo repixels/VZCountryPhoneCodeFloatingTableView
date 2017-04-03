@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VZCountryPhoneCodeFloatingTableView"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "Floating Tableview with all countries along with Phone Codes."
 
   # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-  s.resources = "VZCountryPhoneCodeFloatingTableView/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.resources = "VZCountryPhoneCodeFloatingTableView/**/*.{png,jpeg,jpg,storyboard,xib,json}"
 
 
 end
